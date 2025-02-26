@@ -33,7 +33,7 @@ namespace LibraryManagementSystem
             dataGridViewMembers.DataSource = membersTable;
 
             // تحديد العناوين العربية للأعمدة
-            dataGridViewMembers.Columns["MemberID"].HeaderText = "رقم العضو";
+            dataGridViewMembers.Columns["MemberID"]!.HeaderText = "رقم العضو";
             dataGridViewMembers.Columns["Name"].HeaderText = "الاسم";
             dataGridViewMembers.Columns["Phone"].HeaderText = "الهاتف";
             dataGridViewMembers.Columns["Email"].HeaderText = "البريد الإلكتروني";
