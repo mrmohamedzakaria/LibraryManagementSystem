@@ -66,7 +66,9 @@ namespace LibraryManagementSystem
 
                     // إغلاق نموذج التحميل
                     this.DialogResult = DialogResult.OK;
-                    this.Close();
+                    ////this.Close();
+
+                    //new MainForm().Show();
                     break;
             }
         }
