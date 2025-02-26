@@ -1,3 +1,5 @@
+using ArabicLibraryManagementSystem;
+
 namespace LibraryManagementSystem
 {
     internal static class Program
